@@ -8,7 +8,7 @@ public class CGA4CameraEffect : MonoBehaviour {
 
 	// Creates a private material used to the effect
 	void Awake () {
-		material = new Material( Shader.Find("Hidden/BWDiffuse") );
+		material = new Material( Shader.Find("Hidden/CGAHalftone") );
 	}
 
 	// Postprocess the image

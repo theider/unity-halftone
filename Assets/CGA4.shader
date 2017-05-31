@@ -1,4 +1,4 @@
-﻿Shader "Hidden/BWDiffuse" {
+﻿Shader "Hidden/CGAHalftone" {
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "white" {}	
 	}
