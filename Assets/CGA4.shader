@@ -24,7 +24,7 @@
 				float x = i.pos.x;
 				float y = i.pos.y;
 				float block_size = 8;
-				float rad = block_size / 2;
+				float rad = (1.4 * block_size) / 2;
 				// depending on lum [0,1] we draw as halftone with black background.
 				float cx = (x - (x % block_size)) + rad;
 				float cy = (y - (y % block_size)) + rad;
